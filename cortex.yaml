@@ -1,0 +1,15 @@
+---
+info:
+  title: Rex Exploitation
+  description: Rex library for various exploitation helpers
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/rex-exploitation
+  x-cortex-tag: rex-exploitation
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: metasploit
+openapi: 3.0.1
+servers:
+- url: "/"
